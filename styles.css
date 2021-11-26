@@ -54,7 +54,7 @@ header{
 }
 header img{
     display: flex;
-    width: 7%;
+    width: 10%;
 }
 header p{
     display: flex;
@@ -478,10 +478,4 @@ footer svg{
         letter-spacing: 5px;
         cursor: pointer;
     }
-    .svg1{
-        width: 500px;
-        position: absolute;
-        top: -10vh;
-        right: -20vh;
-        display: none;
-    }
+
