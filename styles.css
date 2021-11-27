@@ -53,9 +53,10 @@ header{
     justify-content: space-between;
     height: 10vh; 
 }
-header img{
-    display: flex;
-    width: 10%;
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 3vh; left: 5vw;
 }
 header p{
     display: flex;
@@ -174,26 +175,14 @@ h2 span{
 .click-me{
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    color: white;
-    padding: 5px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: #212121;
-    display: table;
+    padding:1px;
     margin: auto;
     font-size: 15px;
+    color: black;
+    display: table;
 }
-.click-me::after{
-    content: '';
-    width: 0%;
-    height: 2px;
-    background:white;
-    display: block;
-    margin: auto;
-    transition: 0.5s ease;
-}
-.click-me:hover::after{
-    width: 30%;
+.click-me:hover{
+    opacity: 0.8;
 }
 
 .click-btn{
@@ -283,7 +272,7 @@ h4{
     margin-top: 1vh;
     background-color: #f5f5f5;
     padding: 20px;
-    width: 33%;
+    width: 42%;
     font-family: 'Poppins', sans-serif;
     cursor: pointer;
 }
@@ -354,14 +343,15 @@ footer svg{
     
     }
     header img{
-        width: 13%;
-        
+        width: 80px;
+        position: absolute;
+        top: 3vh; left: 5vw;
     }
 
     #nav-page{
         width: 70%;
         margin: auto;
-        margin-top: 3vh;
+        margin-top: 5vh;
         font-size: 10px;
     }
     .nav-links a {
