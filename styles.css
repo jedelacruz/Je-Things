@@ -6,6 +6,9 @@ html {
     margin: 0;
     padding: 0;
 }
+.contact-btn{
+    text-decoration: none;
+}
 body{
     overflow-x: hidden; /* Hide horizontal scrollbar */
 }
