@@ -51,9 +51,7 @@ header{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    height: 10vh;
-   
-
+    height: 10vh; 
 }
 header img{
     display: flex;
@@ -168,11 +166,40 @@ h2{
     font-family: 'Poppins', sans-serif;
     font-size: 22px;
     opacity: 0.8;
-    cursor: pointer;
     font-weight: 300;
 }
 h2 span{
     color: #FF0066;
+}
+.click-me{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #212121;
+    display: table;
+    margin: auto;
+    font-size: 15px;
+}
+.click-me::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:white;
+    display: block;
+    margin: auto;
+    transition: 0.5s ease;
+}
+.click-me:hover::after{
+    width: 30%;
+}
+
+.click-btn{
+    text-decoration: none;
+    color: black;
+    text-align: center;
 }
 
 #work-page{
@@ -192,7 +219,7 @@ h2 span{
     margin: 20px;
     width: 40%;
     height: 250px;
-    cursor: pointer;
+
 }
 .box:hover{
     opacity: 0.8;
